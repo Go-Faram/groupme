@@ -2,6 +2,8 @@
 
 one:
   content: MyText
+  group_id: 1
 
 two:
   content: MyText
+  group_id: 1

@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"find",
+				"find_group"
+			],
+			[
+				"post",
+				"post_params"
+			],
+			[
+				"groups",
+				"groups_path"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"pra",
+				"params"
+			],
+			[
+				"li",
+				"link_to	create a link	erb"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 583.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())\\"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zwei/workspace/groupme",
+		"/home/zwei/workspace/groupme/app",
+		"/home/zwei/workspace/groupme/app/controllers",
+		"/home/zwei/workspace/groupme/app/views",
+		"/home/zwei/workspace/groupme/app/views/groups",
+		"/home/zwei/workspace/groupme/db",
+		"/home/zwei/workspace/groupme/db/migrate",
+		"/home/zwei/workspace/groupme/public"
+	],
+	"file_history":
+	[
+		"/home/zwei/workspace/groupme/app/models/post.rb",
+		"/home/zwei/workspace/groupme/app/models/group.rb",
+		"/home/zwei/workspace/groupme/app/views/posts/edit.html.erb",
+		"/home/zwei/workspace/groupme/app/views/posts/new.html.erb",
+		"/home/zwei/workspace/groupme/app/controllers/groups_controller.rb",
+		"/home/zwei/workspace/groupme/app/controllers/posts_controller.rb",
+		"/home/zwei/workspace/groupme/app/controllers/application_controller.rb",
+		"/home/zwei/workspace/groupme/config/application.rb",
+		"/home/zwei/workspace/groupme/config.ru",
+		"/home/zwei/workspace/groupme/app/views/groups/show.html.erb",
+		"/home/zwei/workspace/groupme/app/helpers/groups_helper.rb",
+		"/home/zwei/workspace/groupme/test/fixtures/groups.yml",
+		"/home/zwei/workspace/groupme/Gemfile",
+		"/home/zwei/workspace/groupme/app/views/groups/new.html.erb",
+		"/home/zwei/workspace/groupme/test/models/post_test.rb",
+		"/home/zwei/workspace/groupme/app/views/groups/edit.html.erb",
+		"/home/zwei/workspace/groupme/test/helpers/posts_helper_test.rb",
+		"/home/zwei/workspace/groupme/app/helpers/posts_helper.rb",
+		"/home/zwei/workspace/groupme/config/routes.rb",
+		"/home/zwei/workspace/groupme/app/views/groups/index.html.erb",
+		"/home/zwei/workspace/groupme/groupme/db/migrate/20141105014119_devise_create_users.rb",
+		"/home/zwei/workspace/groupme/groupme/config/database.yml",
+		"/home/zwei/workspace/groupme/groupme/config/initializers/inflections.rb",
+		"/home/zwei/workspace/groupme/Rakefile",
+		"/home/zwei/workspace/groupme/config/environment.rb",
+		"/home/zwei/workspace/groupme/groupme/app/views/common/_google_analytics.html.erb",
+		"/home/zwei/workspace/groupme/groupme/config/initializers/seo_helper.rb",
+		"/home/zwei/workspace/groupme/bin/spring",
+		"/home/zwei/workspace/groupme/groupme/app/assets/stylesheets/bootstrap-override.css.scss",
+		"/home/zwei/workspace/groupme/test/models/group_test.rb",
+		"/home/zwei/workspace/ywk/Capfile",
+		"/home/zwei/workspace/ywk/db/migrate/20140213071204_create_orders.rb",
+		"/home/zwei/workspace/ywk/config.ru",
+		"/home/zwei/workspace/ywk/app/models/article.rb",
+		"/home/zwei/workspace/ywk/app/models/article_change_log.rb",
+		"/home/zwei/workspace/ywk/app/controllers/articles_controller.rb",
+		"/home/zwei/workspace/ywk/db/migrate/20140218064452_change_data_type_for_articles_status.rb",
+		"/home/zwei/workspace/ywk/vendor/assets/javascripts/metronic/plugins/jquery-validation/demo/radio-checkbox-select-demo.html",
+		"/home/zwei/workspace/ywk/db/migrate/20140226035925_add_readed_to_company_change_logs.rb",
+		"/home/zwei/workspace/ywk/app/models/agent_rebate.rb",
+		"/home/zwei/workspace/ywk/config/application.rb",
+		"/home/zwei/workspace/ywk/app/views/layouts/console/_customer_top_nav.html.erb",
+		"/home/zwei/workspace/ywk/app/models/admin.rb",
+		"/home/zwei/workspace/ywk/app/models/agent_deduct.rb",
+		"/home/zwei/workspace/ywk/vendor/assets/javascripts/metronic/plugins/gmaps/examples/routes_advanced.html",
+		"/home/zwei/workspace/ywk/config/routes/routes.rb",
+		"/home/zwei/workspace/ywk/public/robots.txt",
+		"/home/zwei/workspace/ywk/Rakefile"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"find",
+			"sim",
+			"form",
+			"id",
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/zwei/workspace/groupme"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"appcon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"new",
+				"app/views/posts/new.html.erb"
+			],
+			[
+				"postedit",
+				"app/views/posts/edit.html.erb"
+			],
+			[
+				"n",
+				"app/views/groups/new.html.erb"
+			],
+			[
+				"posthtml",
+				"app/views/posts/new.html.erb"
+			],
+			[
+				"posth",
+				"app/helpers/posts_helper.rb"
+			],
+			[
+				"postcon",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"show",
+				"app/views/groups/show.html.erb"
+			],
+			[
+				"post",
+				"app/models/post.rb"
+			],
+			[
+				"edit",
+				"app/views/groups/edit.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"grou",
+				"app/models/group.rb"
+			],
+			[
+				"gour",
+				"app/controllers/groups_controller.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"group_con",
+				"app/controllers/groups_controller.rb"
+			],
+			[
+				"article",
+				"app/models/article.rb"
+			],
+			[
+				"routecno",
+				"config/routes/console.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/workspace/ywk/ywk.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

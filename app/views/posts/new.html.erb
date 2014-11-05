@@ -1,5 +1,8 @@
-<h1>New post</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Back', posts_path %>
+<div class="span12">
+  <%= simple_form_for [@group, @post] do |f| %>
+      <%= f.input :content, :input_html => { :class => "input-xxlarge"} %>
+        <div class="form-actions">
+              <%= f.submit "Submit", :disable_with => 'Submiting...', :class => "btn btn-primary" %>
+        </div>
+  <% end %>
+</div>
