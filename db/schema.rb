@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141105033214) do
+ActiveRecord::Schema.define(version: 20141112040136) do
 
   create_table "groups", force: true do |t|
     t.string   "title"
@@ -23,6 +23,23 @@ ActiveRecord::Schema.define(version: 20141105033214) do
   create_table "posts", force: true do |t|
     t.text     "content"
     t.integer  "group_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "products", force: true do |t|
+    t.string   "name"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "part_number"
+  end
+
+  add_index "products", ["part_number"], name: "index_products_on_part_number"
+
+  create_table "users", force: true do |t|
+    t.string   "name"
+    t.string   "occupation"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
