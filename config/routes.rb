@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  no-ff	
   resources :groups do
   	resources :posts
   end
