@@ -10,6 +10,7 @@ class GroupsController < ApplicationController
   end
 
   def new
+
     @group = Group.new
   end
 
@@ -17,7 +18,7 @@ class GroupsController < ApplicationController
     @group = Group.new(group_params)
     if @group.save
       flash[:notice] = 'Post was successfully created.'
-      redirect_to group_path(@group)
+      redirect_to group_path(@group), alert: '创建成功'
     else
       render :new
     end
