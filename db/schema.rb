@@ -11,11 +11,67 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141112040136) do
+ActiveRecord::Schema.define(version: 20141112090008) do
+
+  create_table "appointments", force: true do |t|
+    t.integer  "physician_id"
+    t.integer  "patient_id"
+    t.datetime "appointment_date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "customers", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "customers_products", id: false, force: true do |t|
+    t.integer "customer_id", null: false
+    t.integer "product_id",  null: false
+  end
+
+  create_table "employees", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "manager_id"
+  end
+
+  add_index "employees", ["manager_id"], name: "index_employees_on_manager_id"
 
   create_table "groups", force: true do |t|
     t.string   "title"
     t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "orders", force: true do |t|
+    t.datetime "datetime"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "customer_id"
+  end
+
+  add_index "orders", ["customer_id"], name: "index_orders_on_customer_id"
+
+  create_table "patients", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "physicians", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "pictures", force: true do |t|
+    t.string   "name"
+    t.integer  "imageable_id"
+    t.string   "imageable_type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
