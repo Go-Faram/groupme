@@ -18,4 +18,10 @@ class ApplicationController < ActionController::Base
     end
     end
   end
+
+  private
+
+  def current_ability
+    @current_ability ||=Ability.new(requ)
+  end
 end
